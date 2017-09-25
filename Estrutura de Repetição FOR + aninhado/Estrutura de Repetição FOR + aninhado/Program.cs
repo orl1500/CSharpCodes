@@ -4,31 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/* Acima estão as bibliotecas para construir o projeto
- * Version: 1789.56
- * Date: 25/09/2017 */
- 
-    namespace Estrutura_de_Repetição_FOR___aninhado
+namespace Estrutura_de_Repetição_FOR___aninhado //Nome do Arquivo
+{
+
+    class program
     {
 
-        class program
-         {
+        static void Main ( string [] args )
+        {
 
-            static void Main ( string [] args )
+
+            Console.WriteLine(" \n\n \t\t\t\t Welcome to My Machine. That's all Folks ");
+            Console.WriteLine(" \n \t\t\t\t Developed By Orleans Samai \n\n ");
+            
+            for ( int name = 5; name <= 10; name++ )
             {
 
-                Console.WriteLine(" \t\t\t\t\t ===Welcome to MainSpace Version 1789.56=== \n\n\n ");
-                //Mensagem de Apresentação na Tela
+                Console.WriteLine(  " Orleans :" + name);
 
-                    for ( int countdown = 30; countdown >= 5; countdown-=4 )
-                    {
+            }
+            Console.ReadKey();
 
-                        Console.WriteLine(" \t\t\t\t Contagem: " + countdown);
-                        //Mensagem na Tela
-                    }
-                    Console.ReadKey(); //Faz o programa ser executado
         }
-
+        
     }
 
 }
